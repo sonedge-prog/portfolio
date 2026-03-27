@@ -32,9 +32,24 @@
     line-height:1.6;
     
     min-height:100vh;
+
+    display:flex;
+    flex-direction:column;
     
     }
 
+    .section {
+      flex:1;
+    }
+
+    footer {
+      text-align:center;
+      padding:40px;
+      color:var(--muted);
+    
+      margin-top:auto;
+    }
+    
   /* Fond Matrix */
   #matrixCanvas{
 
