@@ -32,24 +32,9 @@
     line-height:1.6;
     
     min-height:100vh;
-
-    display:flex;
-    flex-direction:column;
     
     }
 
-    .section {
-      flex:1;
-    }
-
-    footer {
-      text-align:center;
-      padding:40px;
-      color:var(--muted);
-    
-      margin-top:auto;
-    }
-    
   /* Fond Matrix */
   #matrixCanvas{
 
@@ -492,3 +477,72 @@
     transform:translateY(0);
     
     }
+  
+/* =========================
+   ARTICLE VEILLE IA
+========================= */
+
+.section-card h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #00ffcc; /* style Matrix */
+}
+
+.section-card h3 {
+    margin-top: 25px;
+    margin-bottom: 10px;
+    color: #00cc99;
+    font-size: 20px;
+}
+
+.section-card p {
+    line-height: 1.7;
+    margin-bottom: 15px;
+    color: #e0e0e0;
+}
+
+.section-card ul {
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+.section-card ul li {
+    margin-bottom: 8px;
+    color: #b5f5ec;
+}
+
+/* Effet carte amélioré */
+.section-card {
+    background: rgba(0, 0, 0, 0.75);
+    border: 1px solid #00ffcc;
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 0 20px rgba(0, 255, 204, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Effet hover stylé */
+.section-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 30px rgba(0, 255, 204, 0.5);
+}
+
+/* Style sources */
+.section-card ul li::marker {
+    color: #00ffcc;
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+    .section-card {
+        padding: 20px;
+    }
+
+    .section-card h2 {
+        font-size: 22px;
+    }
+
+    .section-card h3 {
+        font-size: 18px;
+    }
+}
