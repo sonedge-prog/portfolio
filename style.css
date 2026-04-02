@@ -322,7 +322,7 @@ footer{
   transform:translateY(0);
 }
 
-/* LIENS (veille uniquement) */
+/* LIENS (veille) */
 .section-card a:link,
 .section-card a:visited{
   color:#00ffcc !important;
