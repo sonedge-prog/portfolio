@@ -35,33 +35,6 @@ body{
   
 }
 
-/* =========================
-   LIENS (AJOUT IMPORTANT)
-========================= */
-
-a {
-  color: #00ffcc;
-  text-decoration: none;
-  transition: 0.3s;
-}
-
-a:hover {
-  color: var(--accent);
-  text-decoration: underline;
-}
-
-/* liens dans les cartes (sources) */
-.section-card a {
-  color: #00ffcc;
-  font-weight: 500;
-  border-bottom: 1px solid rgba(0,255,204,0.4);
-}
-
-.section-card a:hover {
-  color: var(--accent);
-  border-bottom: 1px solid var(--accent);
-}
-
 /* Fond Matrix */
 #matrixCanvas{
 
@@ -545,6 +518,22 @@ ARTICLE VEILLE IA
 /* Style sources */
 .section-card ul li::marker {
     color: #00ffcc;
+}
+
+/* =========================
+LIENS
+========================= */
+
+.section-card a:link,
+.section-card a:visited {
+  color: #00ffcc !important;
+  text-decoration: none;
+}
+
+.section-card a:hover,
+.section-card a:focus {
+  color: #38bdf8 !important;
+  text-decoration: underline;
 }
 
 /* Responsive */
