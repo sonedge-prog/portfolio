@@ -542,6 +542,18 @@
         font-size: 22px;
     }
 
+/* LIENS (contenu général) */
+a {
+  color: #00ffcc; /* vert Matrix bien visible */
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+a:hover {
+  color: #38bdf8; /* ton accent bleu */
+  text-decoration: underline;
+}
+
     .section-card h3 {
         font-size: 18px;
     }
