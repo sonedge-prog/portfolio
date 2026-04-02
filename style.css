@@ -105,7 +105,7 @@ header{
   padding:80px 20px;
 }
 
-/* ✅ SECTION CARD (fusion propre) */
+/* SECTION CARD */
 .section-card{
   background: rgba(0, 0, 0, 0.75);
   border: 1px solid #00ffcc;
@@ -155,7 +155,7 @@ header{
   color:var(--accent);
 }
 
-/* ✅ BOUTONS FIX GLOBAL */
+/* BOUTONS */
 a.btn{
   display:inline-block;
   margin-top:20px;
@@ -322,7 +322,7 @@ footer{
   transform:translateY(0);
 }
 
-/* ✅ LIENS (veille uniquement) */
+/* LIENS (veille uniquement) */
 .section-card a:link,
 .section-card a:visited{
   color:#00ffcc !important;
