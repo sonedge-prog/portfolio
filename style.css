@@ -232,9 +232,11 @@ color:var(--accent);
 
 }
 
-/* BOUTONS */
+/* =========================
+   BOUTONS (fix global)
+========================= */
 
-.section-card a.btn{
+a.btn{
 
   display:inline-block;
 
@@ -247,7 +249,7 @@ color:var(--accent);
 
   background:linear-gradient(90deg,var(--accent),var(--accent2));
 
-  color:#ffffff !important; /* force blanc */
+  color:#ffffff !important;
 
   font-weight:500;
 
@@ -260,17 +262,27 @@ color:var(--accent);
 }
 
 /* Hover */
-.section-card a.btn:hover{
+a.btn:hover{
 
   transform:translateY(-3px);
 
-  background:linear-gradient(90deg,#0ea5e9,#4f46e5); /* dégradé plus foncé */
+  background:linear-gradient(90deg,#0ea5e9,#4f46e5);
 
   color:#ffffff !important;
 
   box-shadow:0 0 20px rgba(56,189,248,0.5);
 
 }
+
+/* Empêche les styles de liens d'impacter les boutons */
+a.btn:link,
+a.btn:visited,
+a.btn:hover,
+a.btn:focus {
+  color: #ffffff !important;
+  text-decoration: none !important;
+}
+
 /* TIMELINE */
 
 .timeline{
